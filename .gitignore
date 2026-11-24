@@ -1,0 +1,21 @@
+# Python-generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Unreal-generated files
+Binaries/
+Intermediate/
+DerivedDataCache/
+Saved/
+
+# Local editor and operating-system files
+.DS_Store
+._*
+.idea/
+.vscode/
+
+# Local credentials
+.env
+.env.*

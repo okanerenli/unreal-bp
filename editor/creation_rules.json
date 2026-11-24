@@ -1,0 +1,930 @@
+{
+  "/Script/UnrealEd.StructureFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.EnumFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.MaterialFactoryNew": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.MaterialFunctionFactoryNew": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.BlueprintFactory": {
+    "required": [
+      "parentClass"
+    ],
+    "allowed": [
+      "parentClass"
+    ]
+  },
+  "/Script/UnrealEd.DataTableFactory": {
+    "required": [
+      "struct"
+    ],
+    "allowed": [
+      "struct"
+    ]
+  },
+  "/Script/UnrealEd.AnimSequenceFactory": {
+    "required": [
+      "targetSkeleton"
+    ],
+    "allowed": [
+      "targetSkeleton",
+      "previewSkeletalMesh"
+    ]
+  },
+  "/Script/UnrealEd.CurveFloatFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.CurveVectorFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.CurveLinearColorFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.MaterialInstanceConstantFactoryNew": {
+    "required": [],
+    "allowed": [
+      "initialParent"
+    ]
+  },
+  "/Script/MediaPlayerEditor.MediaPlaylistFactoryNew": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/MediaPlayerEditor.PlatformMediaSourceFactoryNew": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/MediaPlayerEditor.StreamMediaSourceFactoryNew": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/MediaPlayerEditor.FileMediaSourceFactoryNew": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/AudioEditor.SoundMixFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/AudioEditor.ReverbEffectFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/AudioEditor.SoundClassFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/AudioEditor.SoundAttenuationFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/AudioEditor.AudioBusFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/AudioEditor.SoundConcurrencyFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/AudioEditor.DialogueVoiceFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/ImgMediaEditor.ImgMediaSourceFactoryNew": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/BehaviorTreeEditor.BehaviorTreeFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/BehaviorTreeEditor.BlackboardDataFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/NiagaraEditor.NiagaraValidationRuleSetFactoryNew": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/NiagaraEditor.NiagaraEffectTypeFactoryNew": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/VirtualTexturingEditor.VirtualTextureBuilderFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/VirtualTexturingEditor.RuntimeVirtualTextureFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/DataLayerEditor.DataLayerFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/WorldPartitionEditor.HLODLayerFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.AnimBoneCompressionSettingsFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.AnimCurveCompressionSettingsFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.VariableFrameStrippingSettingsFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/FoliageEdit.LandscapeGrassTypeFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/NiagaraEditor.NiagaraSimCacheFactoryNew": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/NiagaraEditor.NiagaraParameterDefinitionsFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/Paper2DEditor.PaperFlipbookFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/InputEditor.InputAction_Factory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/InputEditor.InputMappingContext_Factory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.StringTableFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.MaterialParameterCollectionFactoryNew": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.ObjectLibraryFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.ForceFeedbackAttenuationFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.ForceFeedbackEffectFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.HapticFeedbackEffectCurveFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.HapticFeedbackEffectBufferFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.HapticFeedbackEffectSoundWaveFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.SubsurfaceProfileFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.SpecularProfileFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.NeuralProfileFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.ToonProfileFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.TouchInterfaceFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.SubUVAnimationFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.CompositeCurveTableFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/EnvironmentQueryEditor.EnvironmentQueryFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/OverlayEditor.LocalizedOverlaysFactoryNew": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/OverlayEditor.BasicOverlaysFactoryNew": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/AnimationSharingEd.AnimationSharingSetupFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/NiagaraEditor.NiagaraParameterCollectionFactoryNew": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/VariantManagerContentEditor.VariantManagerFactoryNew": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/AudioEditor.SoundSourceBusFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.BlueprintFunctionLibraryFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.BlueprintInterfaceFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.BlueprintMacroFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.UIMaterialFactoryNew": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.MaterialFunctionMaterialLayerFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.MaterialFunctionMaterialLayerBlendFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/PCGEditor.PCGComputeSourceFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/PCGEditor.PCGBuilderSettingsFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/PCGEditor.PCGGraphFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/IKRigEditor.IKRetargetFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/IKRigEditor.IKRigDefinitionFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/ConsoleVariablesEditor.ConsoleVariablesEditorFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/Paper2DEditor.PaperTileSetFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/VirtualTexturingEditor.MaterialCacheVirtualTextureTagFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/WorldBookmark.WorldBookmarkFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.MeshDeformerCollectionFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/PhysicsControlEditor.PhysicsControlAssetFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UMGEditor.SlateVectorArtDataFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UserAssetTagsEditor.TaggedAssetBrowserConfigurationFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/OptimusEditor.OptimusSourceFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/EaseCurveTool.EaseCurveLibraryFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/GameplayCamerasEditor.CameraVariableCollectionFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/GameplayCamerasEditor.CameraRigProxyAssetFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/InterchangeTestEditor.InterchangeImportTestPlanFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/ACLPluginEditor.AnimationCompressionLibraryDatabaseFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/ResonanceAudioEditor.ResonanceAudioSpatializationSourceSettingsFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/ResonanceAudioEditor.ResonanceAudioReverbPluginPresetFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/WaveTableEditor.WaveTableBankFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/ChaosSolverEditor.ChaosSolverFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.CompositeDataTableFactory": {
+    "required": [
+      "struct"
+    ],
+    "allowed": [
+      "struct"
+    ]
+  },
+  "/Script/UnrealEd.BlendSpaceFactoryNew": {
+    "required": [
+      "targetSkeleton"
+    ],
+    "allowed": [
+      "targetSkeleton"
+    ]
+  },
+  "/Script/UnrealEd.BlendSpaceFactory1D": {
+    "required": [
+      "targetSkeleton"
+    ],
+    "allowed": [
+      "targetSkeleton"
+    ]
+  },
+  "/Script/UnrealEd.AimOffsetBlendSpaceFactoryNew": {
+    "required": [
+      "targetSkeleton"
+    ],
+    "allowed": [
+      "targetSkeleton"
+    ]
+  },
+  "/Script/UnrealEd.AimOffsetBlendSpaceFactory1D": {
+    "required": [
+      "targetSkeleton"
+    ],
+    "allowed": [
+      "targetSkeleton"
+    ]
+  },
+  "/Script/UnrealEd.AnimMontageFactory": {
+    "required": [
+      "targetSkeleton"
+    ],
+    "allowed": [
+      "targetSkeleton"
+    ]
+  },
+  "/Script/UnrealEd.AnimCompositeFactory": {
+    "required": [
+      "targetSkeleton"
+    ],
+    "allowed": [
+      "targetSkeleton"
+    ]
+  },
+  "/Script/AudioEditor.SoundCueFactoryNew": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/AudioEditor.DialogueWaveFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/AudioEditor.SoundSourceEffectChainFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/AudioEditor.SoundSubmixFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/AudioEditor.SoundfieldSubmixFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/AudioEditor.EndpointSubmixFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/AudioEditor.SoundfieldEndpointSubmixFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/FoliageEdit.FoliageType_InstancedStaticMeshFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/FoliageEdit.FoliageType_ActorFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/NiagaraEditor.VolumeCacheFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/MediaPlayerEditor.MediaPlayerFactoryNew": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/MediaPlayerEditor.MediaTextureFactoryNew": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/LevelSequenceEditor.LevelSequenceFactoryNew": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/TemplateSequenceEditor.CameraAnimationSequenceFactoryNew": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.Texture2DFactoryNew": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.PhysicalMaterialFactoryNew": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.PhysicalMaterialMaskFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.CanvasRenderTarget2DFactoryNew": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.CurveLinearColorAtlasFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.TextureRenderTargetFactoryNew": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.TextureRenderTarget2DArrayFactoryNew": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.TextureRenderTargetCubeFactoryNew": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.TextureRenderTargetVolumeFactoryNew": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/GameplayCamerasEditor.CameraRigAssetFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/GameplayCamerasEditor.CameraShakeAssetFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/OptimusEditor.OptimusDeformerFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/MeshLODToolset.StaticMeshLODGenerationSettingsFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/SynthesisEditor.ModularSynthPresetBankFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/SynthesisEditor.MonoWaveTableSynthPresetFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/AnimGraph.AnimSequenceTransformProviderLayerStackFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/AnimGraph.AnimSequenceTransformProviderSequenceListFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/AnimGraph.AnimSequenceTransformProviderBlendSpaceListFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.AnimBankDataFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.AnimBankFactory": {
+    "required": [
+      "targetSkeleton"
+    ],
+    "allowed": [
+      "targetSkeleton"
+    ]
+  },
+  "/Script/UnrealEd.PoseAssetFactory": {
+    "required": [
+      "sourceAnimation"
+    ],
+    "allowed": [
+      "sourceAnimation"
+    ]
+  },
+  "/Script/EditableComputeGraphEditor.EditableComputeGraphFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/DataRegistryEditor.DataRegistryFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/CustomizableObjectEditor.CustomizableObjectFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/Paper2DEditor.PaperSpriteFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/Paper2DEditor.PaperTileMapFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/NiagaraEditor.NiagaraStatelessEmitterTemplateFactoryNew": {
+    "required": [],
+    "allowed": [],
+    "required_console_bool": "fx.NiagaraStateless.AllowTemplateCreation"
+  },
+  "/Script/UnrealEd.DataAssetFactory": {
+    "required": [
+      "dataAssetClass"
+    ],
+    "allowed": [
+      "dataAssetClass"
+    ]
+  },
+  "/Script/UMGEditor.WidgetBlueprintFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/Blutility.EditorUtilityWidgetBlueprintFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.MaterialFunctionInstanceFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.MaterialFunctionMaterialLayerInstanceFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.MaterialFunctionMaterialLayerBlendInstanceFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.SlateBrushAssetFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.Texture2DArrayFactory": {
+    "required": [],
+    "allowed": [],
+    "required_console_bool": "r.AllowTexture2DArrayCreation"
+  },
+  "/Script/UnrealEd.TextureCubeArrayFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.VolumeTextureFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/MetasoundEditor.MetaSoundFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/MetasoundEditor.MetaSoundSourceFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/WaterEditor.WaterWavesAssetFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UMGWidgetPreview.WidgetPreviewFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/NiagaraEditor.NiagaraParameterCollectionInstanceFactoryNew": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.PreviewMeshCollectionFactory": {
+    "required": [
+      "currentSkeleton"
+    ],
+    "allowed": [
+      "currentSkeleton"
+    ]
+  },
+  "/Script/UnrealEd.AnimBlueprintFactory": {
+    "required": [
+      "targetSkeleton"
+    ],
+    "allowed": [
+      "targetSkeleton"
+    ]
+  },
+  "/Script/UnrealEd.AnimLayerInterfaceFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/NiagaraEditor.NiagaraModuleScriptFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/NiagaraEditor.NiagaraFunctionScriptFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/NiagaraEditor.NiagaraDynamicInputScriptFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.ParticleSystemFactoryNew": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/ModelContextProtocolEditor.ModelContextProtocolToolLibraryFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/ModelContextProtocolEditor.ModelContextProtocolEditorToolLibraryFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/ToolPresetAsset.InteractiveToolsPresetCollectionAssetFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/NiagaraEditor.NiagaraDataChannelAssetFactoryNew": {
+    "required": [],
+    "allowed": [],
+    "required_console_bool": "fx.Niagara.DataChannels.Enabled"
+  },
+  "/Script/PCGEditor.PCGGraphInstanceFactory": {
+    "required": [
+      "parentGraph"
+    ],
+    "allowed": [
+      "parentGraph"
+    ]
+  },
+  "/Script/AudioEditor.SoundSourceEffectFactory": {
+    "required": [
+      "soundEffectSourcepresetClass"
+    ],
+    "allowed": [
+      "soundEffectSourcepresetClass"
+    ]
+  },
+  "/Script/AudioEditor.SoundSubmixEffectFactory": {
+    "required": [
+      "soundEffectSubmixPresetClass"
+    ],
+    "allowed": [
+      "soundEffectSubmixPresetClass"
+    ]
+  },
+  "/Script/ControlRigEditor.ControlRigShapeLibraryFactory": {
+    "required": [],
+    "allowed": [],
+    "required_assets": {
+      "/ControlRig/Controls/ControlRig_Sphere_solid.ControlRig_Sphere_solid": "/Script/Engine.StaticMesh",
+      "/ControlRig/Controls/ControlRigGizmoMaterial.ControlRigGizmoMaterial": "/Script/Engine.Material",
+      "/ControlRig/Controls/ControlRigXRayMaterial.ControlRigXRayMaterial": "/Script/Engine.Material"
+    }
+  },
+  "/Script/ControlRigEditor.ControlRigAssetFactory": {
+    "required": [],
+    "allowed": [],
+    "required_console_bool": "RigVM.BlueprintIndependentAssets"
+  },
+  "/Script/StateTreeEditorModule.StateTreeFactory": {
+    "required": [
+      "stateTreeSchemaClass"
+    ],
+    "allowed": [
+      "stateTreeSchemaClass"
+    ]
+  },
+  "/Script/UnrealEd.FontFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/NamingTokensUncookedOnly.NamingTokensFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/NamingTokensEditor.EditorUtilityNamingTokensFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.WorldFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/ObjectMixerEditor.ObjectMixerBlueprintFilterFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/InterchangeEditorPipelines.InterchangeBlueprintPipelineBaseFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/InterchangeEditorPipelines.InterchangeEditorBlueprintPipelineBaseFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/NiagaraEditor.NiagaraEmitterFactoryNew": {
+    "required": [],
+    "allowed": [],
+    "required_assets": {
+      "/Niagara/Modules/Emitter/EmitterState.EmitterState": "/Script/Niagara.NiagaraScript",
+      "/Niagara/Modules/Emitter/SpawnRate.SpawnRate": "/Script/Niagara.NiagaraScript",
+      "/Niagara/Modules/Spawn/Location/SystemLocation.SystemLocation": "/Script/Niagara.NiagaraScript",
+      "/Niagara/Modules/Spawn/Velocity/AddVelocity.AddVelocity": "/Script/Niagara.NiagaraScript",
+      "/Niagara/Modules/Update/Lifetime/UpdateAge.UpdateAge": "/Script/Niagara.NiagaraScript",
+      "/Niagara/Modules/Update/Color/Color.Color": "/Script/Niagara.NiagaraScript",
+      "/Niagara/Modules/Solvers/SolveForcesAndVelocity.SolveForcesAndVelocity": "/Script/Niagara.NiagaraScript"
+    }
+  },
+  "/Script/NiagaraEditor.NiagaraSystemFactoryNew": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/UnrealEd.CurveFactory": {
+    "required": [
+      "curveClass"
+    ],
+    "allowed": [
+      "curveClass"
+    ],
+    "concrete_classes": [
+      "curveClass"
+    ]
+  },
+  "/Script/AudioSynesthesiaEditor.AudioSynesthesiaNRTFactory": {
+    "required": [
+      "audioSynesthesiaNRTClass"
+    ],
+    "allowed": [
+      "audioSynesthesiaNRTClass"
+    ],
+    "concrete_classes": [
+      "audioSynesthesiaNRTClass"
+    ]
+  },
+  "/Script/AudioSynesthesiaEditor.AudioSynesthesiaNRTSettingsFactory": {
+    "required": [
+      "audioSynesthesiaNRTSettingsClass"
+    ],
+    "allowed": [
+      "audioSynesthesiaNRTSettingsClass"
+    ],
+    "concrete_classes": [
+      "audioSynesthesiaNRTSettingsClass"
+    ]
+  },
+  "/Script/AudioSynesthesiaEditor.AudioSynesthesiaSettingsFactory": {
+    "required": [
+      "audioSynesthesiaSettingsClass"
+    ],
+    "allowed": [
+      "audioSynesthesiaSettingsClass"
+    ],
+    "concrete_classes": [
+      "audioSynesthesiaSettingsClass"
+    ]
+  },
+  "/Script/UnrealEd.SlateWidgetStyleAssetFactory": {
+    "required": [
+      "styleType"
+    ],
+    "allowed": [
+      "styleType"
+    ],
+    "concrete_classes": [
+      "styleType"
+    ]
+  },
+  "/Script/GameplayAbilitiesEditor.GameplayAbilitiesBlueprintFactory": {
+    "required": [],
+    "allowed": []
+  },
+  "/Script/FoliageEdit.ProceduralFoliageSpawnerFactory": {
+    "required": [],
+    "allowed": [],
+    "required_settings": [
+      {
+        "class": "/Script/UnrealEd.EditorExperimentalSettings",
+        "property": "bProceduralFoliage",
+        "value": true
+      }
+    ]
+  },
+  "/Script/Paper2DEditor.PaperSpriteAtlasFactory": {
+    "required": [],
+    "allowed": [],
+    "required_settings": [
+      {
+        "class": "/Script/Paper2D.PaperRuntimeSettings",
+        "property": "bEnableSpriteAtlasGroups",
+        "value": true
+      }
+    ]
+  },
+  "/Script/Blutility.EditorUtilityBlueprintFactory": {
+    "required": [
+      "parentClass"
+    ],
+    "allowed": [
+      "parentClass"
+    ]
+  },
+  "/Script/TemplateSequenceEditor.TemplateSequenceFactoryNew": {
+    "required": [
+      "boundActorClass"
+    ],
+    "allowed": [
+      "boundActorClass"
+    ],
+    "concrete_classes": [
+      "boundActorClass"
+    ]
+  },
+  "/Script/GameplayCamerasEditor.CameraAssetFactory": {
+    "required": [
+      "cameraDirectorClass"
+    ],
+    "allowed": [
+      "cameraDirectorClass"
+    ],
+    "concrete_classes": [
+      "cameraDirectorClass"
+    ]
+  }
+}

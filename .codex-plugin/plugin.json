@@ -1,0 +1,18 @@
+{
+  "name": "unreal-bp",
+  "version": "0.1.0+codex.20260917114002",
+  "description": "Unreal Editor library for Codex. Reads and edits Blueprint graphs through commands using the existing local Unreal MCP server.",
+  "author": {
+    "name": "Local developer"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Unreal BP",
+    "shortDescription": "Read and edit Blueprints through commands.",
+    "longDescription": "A Codex-side Unreal library for Blueprint maps and command files: create events, variables and nodes, connect pins, position and arrange nodes, compile and save through the existing Unreal MCP server.",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Read the graph map of a Blueprint in the connected Unreal Editor."
+  }
+}
